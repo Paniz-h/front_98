@@ -43,8 +43,6 @@ main header div.topbar ul{
 main header div.topbar ul li{
     display: inline-block;
     margin-right: 10px;
-
-   
 }
 
 main header div.search{
@@ -53,8 +51,8 @@ main header div.search{
     display: inline-block;
     margin-right:50px;
 }
-main header div.search form{
 
+main header div.search form{
    position: relative;
 }
 
@@ -74,10 +72,6 @@ main header div.search button{
     background-color: transparent;
     border: none;
     color: gray;
-}
-
-main nav ul{
-
 }
 
 main nav ul.rightmenu{
@@ -108,9 +102,6 @@ main nav ul.leftmenu li.logo{
     padding-top: 20px;
     padding-bottom: 23px;
 }
-main nav ul.leftmenu li.logo img{
-
-}
 
 main nav ul.leftmenu li.brandname{
     display: inline-block;
@@ -120,9 +111,6 @@ main nav ul.leftmenu li.brandname{
 
 main nav ul.leftmenu li.brandname h1{
     font-size: 25px;
-}
-main nav ul.leftmenu li.brandname span{
-
 }
 
 main section.member{
@@ -377,8 +365,6 @@ main section.twitter{
     width: 85%;
     margin: auto;
     margin-top: 50px;
-  
-
 }
 
 main section.twitter .profile{
@@ -393,7 +379,6 @@ main section.twitter .info{
 
 main section.twitter .info .top{
     margin-bottom: 50px;
-
 }
 
 main section.twitter .info .top .name{
@@ -471,7 +456,6 @@ main section.twitter .actions ul{
   main section.twitter .actions ul li{
   float: left;
   margin-right: 15px;
-    
 }
 
 main footer{
@@ -500,7 +484,6 @@ main footer div.blog-items .blog.left{
 }
 
 main footer div.blog img{
-
     float: left;
     margin-right: 15px;
 }
