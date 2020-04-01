@@ -1,0 +1,585 @@
+
+body{
+    background-color: #34495e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+main header{
+    width: 100%;
+    height: 150px;
+}
+
+main header div.topbar{
+    background-color: #2c3e50;
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    color: #758594;
+}
+
+main header div.topbar .topbar-nav{
+    padding-top: 10px;
+    padding-left: 135px;
+}
+main header div.topbar ul{
+    padding-top: 3px;
+    float: left;
+   
+}
+
+main header div.topbar ul li{
+    display: inline-block;
+    margin-right: 10px;
+
+   
+}
+
+main header div.search{
+
+    float: right;
+    display: inline-block;
+    margin-right:50px;
+}
+main header div.search form{
+
+   position: relative;
+}
+
+main header div.search input{
+    background-color: #34495e;
+    border-radius: 15px;
+    border: solid 1px #34495e;
+    width: 300px;
+    height: 25px;
+    padding-left: 20px;
+}
+
+main header div.search button{
+    position: absolute;
+    right: 5px;
+    bottom: 4px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+}
+
+main nav ul{
+
+}
+
+main nav ul.rightmenu{
+    float: right;
+    margin-right:50px;
+    padding-top: 30px;
+}
+
+main nav ul.rightmenu li{
+    color: white;
+    display: inline-block;
+    padding:10px;
+}
+
+main nav ul.leftmenu{
+    float: left;
+}
+
+main header div.colorfull img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+main nav ul.leftmenu li.logo{
+    display: inline-block;
+    color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
+main nav ul.leftmenu li.logo img{
+
+}
+
+main nav ul.leftmenu li.brandname{
+    display: inline-block;
+    color: white;
+    padding-left:20px ;
+}
+
+main nav ul.leftmenu li.brandname h1{
+    font-size: 25px;
+}
+main nav ul.leftmenu li.brandname span{
+
+}
+
+main section.member{
+    height: 400px;
+    background-color: #596b7b;
+    background-image: linear-gradient(to right ,#596b7b,#d1d6da);
+}
+
+main section  div.engineer{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+main section div.engineer h3{
+    color: #85d6de;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+main section div.engineer h1{
+    color: white;
+    padding-bottom: 30px;
+    font-size: 70px;
+}
+
+main section div.join{
+    padding-left: 150px;
+}
+
+main div.text-slider{
+    background-color: #85d6de;
+    height: 90px;
+    width: 100%;
+    position: relative;
+}
+
+main div.text-slider div.myslide{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+main div.text-slider a.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+main div.text-slider a.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+main div.text-slider a.next{
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+main div.text-slider a.prev:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+main div.text-slider a.next:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+main article div.items{
+    margin: auto;
+    height: 380px;
+    width: 85%;
+    padding-top: 40px;
+    border-bottom: solid #758594 1px;
+}
+
+main article div.items .item{
+    width: 30%;
+    float: right;
+    margin-right: 25px;
+}
+
+main article div.items .item h2{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+main article div.items .item p{
+    color: #758594;
+    padding: 10px;
+    text-align: justify;
+}
+
+main article .sky{
+
+    position: relative;
+}
+
+main article div.sky div.love{
+    padding-top: 70px;
+    width: 85%;
+    margin: auto;
+}
+
+main article .sky  div.love h2{
+    color: white;
+    font-size: 30px;
+}
+
+main article .sky div.love h5{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+main article .sky div.love p{
+    color: #758594;
+    padding-top: 25px;
+}
+
+main article .sky div.infinity{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+}
+
+main article .sky div.infinity h2{
+    color: white;
+    font-size: 30px;
+}
+
+main article .sky div.infinity p{
+    color: #758594;
+    padding-top: 15px;
+    width: 60%;
+}
+
+main article .sky div.planet{
+  
+    position: relative;
+    right: 245px;
+    top: -160px;
+    float: right;
+}
+
+main article .sky div.planet .rockets{
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+}
+
+main article .sky div.stars{
+  
+    position: absolute;
+    bottom: 100px;
+}
+
+main div.recent{
+    background-color:#85d6de ;
+    height: 450px;
+}
+
+main div.recent h4{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: #34495e;
+}
+
+main div.recent div.sliderplanet{
+    width: 100%;
+    margin: auto;
+}
+
+main div.recent div.sliderplanet img{
+    width: 14%;
+    height: 200px;
+}
+
+main div.video{
+    width: 100%;
+}
+
+main div.video h4{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+main div.video .items{
+    margin-right: 285px;
+    height: 400px;
+}
+main .video .items section{
+    float: right;
+    margin-right: 20px;
+    height: 80%;
+}
+main div.video .items section.sides{
+    width: 20%;
+    color: white;
+    border : #758594 2px solid;
+    padding-left: 30px;
+
+}
+
+main div.video .items section.sides ul{
+    padding: 20px;
+}
+
+main div.video .items section.sides ul li{
+    list-style: circle;
+    margin-bottom: 10px;
+}
+
+main div.video .items .center{
+    width: 30%;
+}
+main .video .items .center video{
+    width: 100%;
+    border: solid #758594 1px;
+}
+
+main .video .line img{
+    width: 100%;
+}
+
+main section.twitter{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+  
+
+}
+
+main section.twitter .profile{
+    float: left;
+    width: 10%;
+}
+
+main section.twitter .info{
+    float: left;
+    width: 90%;
+}
+
+main section.twitter .info .top{
+    margin-bottom: 50px;
+
+}
+
+main section.twitter .info .top .name{
+    float: left;
+    position: absolute;
+}
+
+main section.twitter .info .top .name .id{
+    position: relative;
+    left: 45px;
+    bottom: 15px;
+}
+
+main section.twitter .info .top img{
+    float: right;
+}
+
+main section.twitter .info .center{
+    margin-bottom: 50px;
+}
+
+main section.twitter .info .center p{
+    float: left;
+    width: 70%;
+    text-align: justify;
+    margin-right:20px;
+    color: white;
+}
+
+main section.twitter .info .center a{
+    float: left;
+    width: 25%;
+    color: #85d6de;
+}
+
+main section.twitter .info .bottom{
+    margin-top: 20px;
+}
+
+main section.twitter .info .bottom span{
+    float: left;
+    color: #85d6de;
+}
+
+main section.twitter .info .bottom ul{
+    float: right;
+    color: #85d6de;
+}
+
+main section.twitter .info .bottom ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+main section.twitter .info .top .name span{
+    color: white;
+}
+
+main section.twitter .info .top .id span{
+    color: #85d6de;
+}
+
+main section.twitter .actions{
+  margin:auto;
+  width: 100%;
+}
+
+main section.twitter .actions ul{
+    margin-left: 650px;
+    list-style-type: disc;
+    font-size: 30px;
+    color: #85d6de;
+}
+
+  main section.twitter .actions ul li{
+  float: left;
+  margin-right: 15px;
+    
+}
+
+main footer{
+    margin: auto;
+    margin-top: 40px;
+}
+
+main footer div.blog-items{
+    margin: auto;
+    height: 380px;
+    width: 85%;
+    padding-top: 40px;
+    border-bottom: solid #758594 1px;
+    border-top: solid #758594 1px;
+}
+
+main footer div.blog-items .blog{
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    margin-right: 9px;
+}
+
+main footer div.blog-items .blog.left{
+ margin-right: 95px;
+}
+
+main footer div.blog img{
+
+    float: left;
+    margin-right: 15px;
+}
+
+main footer div.blog.left p{
+    margin-top:5px;
+    padding-top: 10px;
+    margin-bottom:10px;
+}
+
+main footer div.blog span{
+    float: left;
+}
+
+main footer div.blog ul li{
+    margin-top: 20px;
+}
+
+main footer div.blog h4{
+    color: #758594;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+main footer .center h4{
+    color: #758594;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+main footer .right h4{
+    color: #758594;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+main footer div.blog-items .center ul li{
+ margin-bottom: 20px;
+}
+
+main footer div.blog-items .center ul li i{
+    color: white;
+    float: left;
+    margin-right: 15px;
+}
+
+main footer div.blog-items .center ul li p{
+    color: #758594;
+}
+
+main footer div.blog ul li.top p{
+    color: #758594;
+}
+
+main footer div.blog ul li.top span{
+    color: white;
+}
+
+main footer div.blog ul li.bottom p{
+    color: #758594;
+}
+
+main footer div.blog ul li.bottom span{
+    color: white;
+}
+
+main footer .blog.right img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+main div.copyright{
+    height: 50px;
+}
+
+main div.copyright p{
+    color: #758594;
+    text-align: center;
+    font-size: 9px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
